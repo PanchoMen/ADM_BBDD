@@ -19,8 +19,6 @@ Se han introducido algunos datos en la base de datos y se han realizado algunas 
 ![Captura Consulta](https://github.com/PanchoMen/ADM_BBDD/blob/master/Farmacia/Captura%20de%20pantalla%202018-11-28%20a%20las%2010.16.02.png "Consulta Clientes Normales")
 
 
-![Captura Consulta](https://github.com/PanchoMen/ADM_BBDD/blob/master/Farmacia/Captura%20de%20pantalla%20de%202018-11-28%2010-15-28.png "Consulta Medicamentos")
-
 ## Triggers
 
 Se han añadido 2 Triggers que controlan el stock y el numero de ventas de un medicamento, como se puede observar en la siguiente captura:
