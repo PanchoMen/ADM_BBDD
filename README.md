@@ -9,3 +9,7 @@ Repositorio para la asignatura Administración de Bases de Datos
 [Practica Farmacia](https://github.com/PanchoMen/ADM_BBDD/tree/master/Farmacia)
 
 [Practica Triggers](https://github.com/PanchoMen/ADM_BBDD/tree/master/Triggers)
+
+[Practica Ejercicio Objeto-Relacional](https://github.com/PanchoMen/ADM_BBDD/tree/master/Administraci%C3%B3n%20de%20Bases%20de%20Datos)
+
+[Practica Administración de Bases de Datos](https://github.com/PanchoMen/ADM_BBDD/tree/master/Ejercicio%20Objeto-Relacional)
