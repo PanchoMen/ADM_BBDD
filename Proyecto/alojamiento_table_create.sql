@@ -41,7 +41,7 @@ CREATE TABLE public.turnob (
 	servicio varchar(10) NOT NULL,
 	dia varchar(10) NOT NULL,
 	hora_e time without time zone NOT NULL,
-	hora_s  NOT NULL,
+	hora_s time without time zone NOT NULL,
 	PRIMARY KEY (servicio, dia, hora_e)
 );
 

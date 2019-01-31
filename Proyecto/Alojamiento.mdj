@@ -2858,7 +2858,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFon6Tm4L4BYFg="
 							},
-							"name": "Hora_S"
+							"name": "Hora_S",
+							"type": "TIME"
 						}
 					]
 				},
