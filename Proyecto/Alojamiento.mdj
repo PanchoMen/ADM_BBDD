@@ -2321,6 +2321,21 @@
 										},
 										{
 											"_type": "ERDColumnView",
+											"_id": "AAAAAAFopjPWSLiyO3o=",
+											"_parent": {
+												"$ref": "AAAAAAFon/ql+MH9a9I="
+											},
+											"model": {
+												"$ref": "AAAAAAFopjPWF7ivu0g="
+											},
+											"font": "Arial;13;0",
+											"left": 45,
+											"top": 1065,
+											"width": 261.0205078125,
+											"height": 13
+										},
+										{
+											"_type": "ERDColumnView",
 											"_id": "AAAAAAFon/rwQcIbMLU=",
 											"_parent": {
 												"$ref": "AAAAAAFon/ql+MH9a9I="
@@ -2330,7 +2345,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 45,
-											"top": 1065,
+											"top": 1080,
 											"width": 261.0205078125,
 											"height": 13
 										}
@@ -2339,14 +2354,14 @@
 									"left": 40,
 									"top": 1015,
 									"width": 271.0205078125,
-									"height": 68
+									"height": 83
 								}
 							],
 							"font": "Arial;13;0",
 							"left": 40,
 							"top": 992,
 							"width": 271.0205078125,
-							"height": 91,
+							"height": 106,
 							"nameLabel": {
 								"$ref": "AAAAAAFon/ql+MH8wG0="
 							},
@@ -3723,6 +3738,15 @@
 							"name": "Fecha_Prestamo",
 							"type": "TIMESTAMP",
 							"primaryKey": true
+						},
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAFopjPWF7ivu0g=",
+							"_parent": {
+								"$ref": "AAAAAAFon/ql+MH5lKc="
+							},
+							"name": "Validez",
+							"type": "DATE"
 						},
 						{
 							"_type": "ERDColumn",

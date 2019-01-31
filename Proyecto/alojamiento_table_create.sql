@@ -184,6 +184,7 @@ CREATE TABLE public.prestamo_libro (
 	dni_usuario varchar(9) NOT NULL,
 	isbn varchar(13) NOT NULL,
 	fecha_prestamo timestamp without time zone NOT NULL,
+	validez date NOT NULL,
 	fecha_devolucion timestamp without time zone,
 	PRIMARY KEY (dni_usuario, isbn, fecha_prestamo)
 );
