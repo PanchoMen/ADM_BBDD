@@ -1580,89 +1580,6 @@
 						},
 						{
 							"_type": "ERDEntityView",
-							"_id": "AAAAAAFon9w6psCt+KM=",
-							"_parent": {
-								"$ref": "AAAAAAFonoz2bb0wA9U="
-							},
-							"model": {
-								"$ref": "AAAAAAFon9w6psCr8+Y="
-							},
-							"subViews": [
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAFon9w6psCu5F4=",
-									"_parent": {
-										"$ref": "AAAAAAFon9w6psCt+KM="
-									},
-									"font": "Arial;13;1",
-									"left": 64,
-									"top": 677,
-									"width": 226.955078125,
-									"height": 13,
-									"text": "Reserva_Lavadora"
-								},
-								{
-									"_type": "ERDColumnCompartmentView",
-									"_id": "AAAAAAFon9w6psCv6aA=",
-									"_parent": {
-										"$ref": "AAAAAAFon9w6psCt+KM="
-									},
-									"model": {
-										"$ref": "AAAAAAFon9w6psCr8+Y="
-									},
-									"subViews": [
-										{
-											"_type": "ERDColumnView",
-											"_id": "AAAAAAFon9xw38C7z3o=",
-											"_parent": {
-												"$ref": "AAAAAAFon9w6psCv6aA="
-											},
-											"model": {
-												"$ref": "AAAAAAFon9xwtMC4kDM="
-											},
-											"font": "Arial;13;0",
-											"left": 69,
-											"top": 700,
-											"width": 216.955078125,
-											"height": 13
-										},
-										{
-											"_type": "ERDColumnView",
-											"_id": "AAAAAAFon9x5AMDBlNM=",
-											"_parent": {
-												"$ref": "AAAAAAFon9w6psCv6aA="
-											},
-											"model": {
-												"$ref": "AAAAAAFon9x41MC+UPg="
-											},
-											"font": "Arial;13;0",
-											"left": 69,
-											"top": 715,
-											"width": 216.955078125,
-											"height": 13
-										}
-									],
-									"font": "Arial;13;0",
-									"left": 64,
-									"top": 695,
-									"width": 226.955078125,
-									"height": 38
-								}
-							],
-							"font": "Arial;13;0",
-							"left": 64,
-							"top": 672,
-							"width": 226.955078125,
-							"height": 61,
-							"nameLabel": {
-								"$ref": "AAAAAAFon9w6psCu5F4="
-							},
-							"columnCompartment": {
-								"$ref": "AAAAAAFon9w6psCv6aA="
-							}
-						},
-						{
-							"_type": "ERDEntityView",
 							"_id": "AAAAAAFon92RRsDc4Xk=",
 							"_parent": {
 								"$ref": "AAAAAAFonoz2bb0wA9U="
@@ -2388,7 +2305,7 @@
 									"font": "Arial;13;1",
 									"left": 344,
 									"top": 1021,
-									"width": 226.955078125,
+									"width": 227.68505859375,
 									"height": 13,
 									"text": "Reserva_Lavadora"
 								},
@@ -2414,7 +2331,7 @@
 											"font": "Arial;13;0",
 											"left": 349,
 											"top": 1044,
-											"width": 216.955078125,
+											"width": 217.68505859375,
 											"height": 13
 										},
 										{
@@ -2429,7 +2346,22 @@
 											"font": "Arial;13;0",
 											"left": 349,
 											"top": 1059,
-											"width": 216.955078125,
+											"width": 217.68505859375,
+											"height": 13
+										},
+										{
+											"_type": "ERDColumnView",
+											"_id": "AAAAAAFopmhl6gTkhc8=",
+											"_parent": {
+												"$ref": "AAAAAAFon/4cF8I2GUw="
+											},
+											"model": {
+												"$ref": "AAAAAAFopmhlwATh01w="
+											},
+											"font": "Arial;13;0",
+											"left": 349,
+											"top": 1074,
+											"width": 217.68505859375,
 											"height": 13
 										},
 										{
@@ -2443,8 +2375,8 @@
 											},
 											"font": "Arial;13;0",
 											"left": 349,
-											"top": 1074,
-											"width": 216.955078125,
+											"top": 1089,
+											"width": 217.68505859375,
 											"height": 13
 										},
 										{
@@ -2458,23 +2390,23 @@
 											},
 											"font": "Arial;13;0",
 											"left": 349,
-											"top": 1089,
-											"width": 216.955078125,
+											"top": 1104,
+											"width": 217.68505859375,
 											"height": 13
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 344,
 									"top": 1039,
-									"width": 226.955078125,
-									"height": 68
+									"width": 227.68505859375,
+									"height": 83
 								}
 							],
 							"font": "Arial;13;0",
 							"left": 344,
 							"top": 1016,
-							"width": 226.955078125,
-							"height": 91,
+							"width": 227.68505859375,
+							"height": 106,
 							"nameLabel": {
 								"$ref": "AAAAAAFon/4cF8I1feU="
 							},
@@ -3330,45 +3262,6 @@
 				},
 				{
 					"_type": "ERDEntity",
-					"_id": "AAAAAAFon9w6psCr8+Y=",
-					"_parent": {
-						"$ref": "AAAAAAFonoz2bb0vK2k="
-					},
-					"name": "Reserva_Lavadora",
-					"columns": [
-						{
-							"_type": "ERDColumn",
-							"_id": "AAAAAAFon9xwtMC4kDM=",
-							"_parent": {
-								"$ref": "AAAAAAFon9w6psCr8+Y="
-							},
-							"name": "DNI_Usuario",
-							"type": "VARCHAR",
-							"length": "9",
-							"primaryKey": true,
-							"foreignKey": true,
-							"referenceTo": {
-								"$ref": "AAAAAAFono1M371BxZY="
-							}
-						},
-						{
-							"_type": "ERDColumn",
-							"_id": "AAAAAAFon9x41MC+UPg=",
-							"_parent": {
-								"$ref": "AAAAAAFon9w6psCr8+Y="
-							},
-							"name": "ID_Lavadora",
-							"type": "INTEGER",
-							"primaryKey": true,
-							"foreignKey": true,
-							"referenceTo": {
-								"$ref": "AAAAAAFon7/1HL72YOA="
-							}
-						}
-					]
-				},
-				{
-					"_type": "ERDEntity",
 					"_id": "AAAAAAFon92RRsDa3T4=",
 					"_parent": {
 						"$ref": "AAAAAAFonoz2bb0vK2k="
@@ -3800,6 +3693,20 @@
 						},
 						{
 							"_type": "ERDColumn",
+							"_id": "AAAAAAFopmhlwATh01w=",
+							"_parent": {
+								"$ref": "AAAAAAFon/4cFsIy1zs="
+							},
+							"name": "ID_Secadora",
+							"type": "INTEGER",
+							"primaryKey": true,
+							"foreignKey": true,
+							"referenceTo": {
+								"$ref": "AAAAAAFon8cpaL9Z0XM="
+							}
+						},
+						{
+							"_type": "ERDColumn",
 							"_id": "AAAAAAFon/5LNsJLOxQ=",
 							"_parent": {
 								"$ref": "AAAAAAFon/4cFsIy1zs="
@@ -3882,6 +3789,18 @@
 					]
 				}
 			]
+		}
+	],
+	"tags": [
+		{
+			"_type": "Tag",
+			"_id": "AAAAAAFoplGlkgTTows=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "database",
+			"kind": "string",
+			"value": "alojamiento"
 		}
 	]
 }

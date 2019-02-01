@@ -11,7 +11,6 @@ DROP TABLE public.libro CASCADE;
 DROP TABLE public.ordenador CASCADE;
 DROP TABLE public.bono_fotocopias CASCADE;
 DROP TABLE public.turnol CASCADE;
-DROP TABLE public.reserva_lavadora CASCADE;
 DROP TABLE public.prestamo_material CASCADE;
 DROP TABLE public.uso_ordenador CASCADE;
 DROP TABLE public.realiza_pago CASCADE;

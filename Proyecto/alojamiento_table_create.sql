@@ -127,13 +127,6 @@ CREATE TABLE public.turnol (
 );
 
 
-CREATE TABLE public.reserva_lavadora (
-	dni_usuario varchar(9) NOT NULL,
-	id_lavadora integer NOT NULL,
-	PRIMARY KEY (dni_usuario, id_lavadora)
-);
-
-
 CREATE TABLE public.prestamo_material (
 	dni_usuario varchar(9) NOT NULL,
 	id_material integer NOT NULL,
@@ -193,9 +186,10 @@ CREATE TABLE public.prestamo_libro (
 CREATE TABLE public.reserva_lavadora (
 	dni_usuario varchar(9) NOT NULL,
 	id_lavadora integer NOT NULL,
+	id_secadora integer NOT NULL,
 	fecha date NOT NULL,
 	hora time without time zone NOT NULL,
-	PRIMARY KEY (dni_usuario, id_lavadora, fecha, hora)
+	PRIMARY KEY (dni_usuario, id_lavadora, id_secadora, fecha, hora)
 );
 
 
@@ -213,8 +207,6 @@ ALTER TABLE public.visita ADD CONSTRAINT FK_visita__dni_usuario FOREIGN KEY (dni
 ALTER TABLE public.bono_fotocopias ADD CONSTRAINT FK_bono_fotocopias__dni_usuario FOREIGN KEY (dni_usuario) REFERENCES public.usuario(dni_usuario);
 ALTER TABLE public.turnol ADD CONSTRAINT FK_turnol__id_lavadora FOREIGN KEY (id_lavadora) REFERENCES public.lavadora(id_lavadora);
 ALTER TABLE public.turnol ADD CONSTRAINT FK_turnol__id_secadora FOREIGN KEY (id_secadora) REFERENCES public.secadora(id_secadora);
-ALTER TABLE public.reserva_lavadora ADD CONSTRAINT FK_reserva_lavadora__dni_usuario FOREIGN KEY (dni_usuario) REFERENCES public.usuario(dni_usuario);
-ALTER TABLE public.reserva_lavadora ADD CONSTRAINT FK_reserva_lavadora__id_lavadora FOREIGN KEY (id_lavadora) REFERENCES public.lavadora(id_lavadora);
 ALTER TABLE public.prestamo_material ADD CONSTRAINT FK_prestamo_material__dni_usuario FOREIGN KEY (dni_usuario) REFERENCES public.usuario(dni_usuario);
 ALTER TABLE public.prestamo_material ADD CONSTRAINT FK_prestamo_material__id_material FOREIGN KEY (id_material) REFERENCES public.material(id_material);
 ALTER TABLE public.uso_ordenador ADD CONSTRAINT FK_uso_ordenador__dni_usuario FOREIGN KEY (dni_usuario) REFERENCES public.usuario(dni_usuario);
@@ -233,5 +225,6 @@ ALTER TABLE public.prestamo_libro ADD CONSTRAINT FK_prestamo_libro__dni_usuario 
 ALTER TABLE public.prestamo_libro ADD CONSTRAINT FK_prestamo_libro__isbn FOREIGN KEY (isbn) REFERENCES public.libro(isbn);
 ALTER TABLE public.reserva_lavadora ADD CONSTRAINT FK_reserva_lavadora__dni_usuario FOREIGN KEY (dni_usuario) REFERENCES public.usuario(dni_usuario);
 ALTER TABLE public.reserva_lavadora ADD CONSTRAINT FK_reserva_lavadora__id_lavadora FOREIGN KEY (id_lavadora) REFERENCES public.lavadora(id_lavadora);
+ALTER TABLE public.reserva_lavadora ADD CONSTRAINT FK_reserva_lavadora__id_secadora FOREIGN KEY (id_secadora) REFERENCES public.secadora(id_secadora);
 ALTER TABLE public.usa_lavadora ADD CONSTRAINT FK_usa_lavadora__dni_usuario FOREIGN KEY (dni_usuario) REFERENCES public.usuario(dni_usuario);
 ALTER TABLE public.usa_lavadora ADD CONSTRAINT FK_usa_lavadora__id_lavadora FOREIGN KEY (id_lavadora) REFERENCES public.lavadora(id_lavadora);
