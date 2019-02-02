@@ -38,11 +38,12 @@ CREATE TABLE public.habitacion (
 
 
 CREATE TABLE public.turnob (
+	id_turno serial NOT NULL,
 	servicio varchar(10) NOT NULL,
 	dia varchar(10) NOT NULL,
 	hora_e time without time zone NOT NULL,
 	hora_s time without time zone NOT NULL,
-	PRIMARY KEY (servicio, dia, hora_e)
+	PRIMARY KEY (id_turno)
 );
 
 
@@ -155,21 +156,17 @@ CREATE TABLE public.realiza_pago (
 
 CREATE TABLE public.becario_tiene_turno (
 	dni_usuario varchar(9) NOT NULL,
-	servicio varchar(10) NOT NULL,
-	dia varchar(10) NOT NULL,
-	hora_e time without time zone NOT NULL,
-	PRIMARY KEY (dni_usuario, servicio, dia, hora_e)
+	id_turno serial NOT NULL,
+	PRIMARY KEY (dni_usuario, id_turno)
 );
 
 
 CREATE TABLE public.becario_realiza_turno (
 	dni_usuario varchar(9) NOT NULL,
-	servicio varchar(10) NOT NULL,
-	dia varchar(10) NOT NULL,
-	hora_e time without time zone NOT NULL,
+	id_turno serial NOT NULL,
 	entrada timestamp without time zone NOT NULL,
 	salida timestamp without time zone,
-	PRIMARY KEY (dni_usuario, servicio, dia, hora_e, entrada)
+	PRIMARY KEY (dni_usuario, id_turno, entrada)
 );
 
 
@@ -214,13 +211,9 @@ ALTER TABLE public.uso_ordenador ADD CONSTRAINT FK_uso_ordenador__id_ordenador F
 ALTER TABLE public.realiza_pago ADD CONSTRAINT FK_realiza_pago__dni_usuario FOREIGN KEY (dni_usuario) REFERENCES public.usuario(dni_usuario);
 ALTER TABLE public.realiza_pago ADD CONSTRAINT FK_realiza_pago__referencia FOREIGN KEY (referencia) REFERENCES public.pago(referencia);
 ALTER TABLE public.becario_tiene_turno ADD CONSTRAINT FK_becario_tiene_turno__dni_usuario FOREIGN KEY (dni_usuario) REFERENCES public.becario(dni_usuario);
-ALTER TABLE public.becario_tiene_turno ADD CONSTRAINT FK_becario_tiene_turno__servicio FOREIGN KEY (servicio) REFERENCES public.turnob(servicio);
-ALTER TABLE public.becario_tiene_turno ADD CONSTRAINT FK_becario_tiene_turno__dia FOREIGN KEY (dia) REFERENCES public.turnob(dia);
-ALTER TABLE public.becario_tiene_turno ADD CONSTRAINT FK_becario_tiene_turno__hora_e FOREIGN KEY (hora_e) REFERENCES public.turnob(hora_e);
+ALTER TABLE public.becario_tiene_turno ADD CONSTRAINT FK_becario_tiene_turno__id_turno FOREIGN KEY (id_turno) REFERENCES public.turnob(id_turno);
 ALTER TABLE public.becario_realiza_turno ADD CONSTRAINT FK_becario_realiza_turno__dni_usuario FOREIGN KEY (dni_usuario) REFERENCES public.becario(dni_usuario);
-ALTER TABLE public.becario_realiza_turno ADD CONSTRAINT FK_becario_realiza_turno__servicio FOREIGN KEY (servicio) REFERENCES public.turnob(servicio);
-ALTER TABLE public.becario_realiza_turno ADD CONSTRAINT FK_becario_realiza_turno__dia FOREIGN KEY (dia) REFERENCES public.turnob(dia);
-ALTER TABLE public.becario_realiza_turno ADD CONSTRAINT FK_becario_realiza_turno__hora_e FOREIGN KEY (hora_e) REFERENCES public.turnob(hora_e);
+ALTER TABLE public.becario_realiza_turno ADD CONSTRAINT FK_becario_realiza_turno__id_turno FOREIGN KEY (id_turno) REFERENCES public.turnob(id_turno);
 ALTER TABLE public.prestamo_libro ADD CONSTRAINT FK_prestamo_libro__dni_usuario FOREIGN KEY (dni_usuario) REFERENCES public.usuario(dni_usuario);
 ALTER TABLE public.prestamo_libro ADD CONSTRAINT FK_prestamo_libro__isbn FOREIGN KEY (isbn) REFERENCES public.libro(isbn);
 ALTER TABLE public.reserva_lavadora ADD CONSTRAINT FK_reserva_lavadora__dni_usuario FOREIGN KEY (dni_usuario) REFERENCES public.usuario(dni_usuario);
