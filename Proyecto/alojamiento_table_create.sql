@@ -18,7 +18,7 @@ ALTER TABLE public.usuario
 CREATE TABLE public.becario (
 	dni_usuario varchar(9) NOT NULL,
 	orden integer NOT NULL,
-	n_avisos integer NOT NULL,
+	n_avisos INTEGER DEFAULT 0 NOT NULL,
 	PRIMARY KEY (dni_usuario)
 );
 
@@ -65,9 +65,10 @@ CREATE TABLE public.lavadora (
 
 
 CREATE TABLE public.material (
-	id_material integer NOT NULL,
+	id_material serial NOT NULL,
 	nombre varchar(20) NOT NULL,
 	stock integer NOT NULL,
+	prestadas INTEGER DEFAULT 0 NOT NULL,
 	PRIMARY KEY (id_material)
 );
 
@@ -156,16 +157,16 @@ CREATE TABLE public.realiza_pago (
 
 CREATE TABLE public.becario_tiene_turno (
 	dni_usuario varchar(9) NOT NULL,
-	id_turno serial NOT NULL,
+	id_turno integer NOT NULL,
 	PRIMARY KEY (dni_usuario, id_turno)
 );
 
 
 CREATE TABLE public.becario_realiza_turno (
 	dni_usuario varchar(9) NOT NULL,
-	id_turno serial NOT NULL,
-	entrada timestamp without time zone NOT NULL,
-	salida timestamp without time zone,
+	id_turno integer NOT NULL,
+	entrada TIMESTAMP DEFAULT current_timestamp NOT NULL,
+	salida TIMESTAMP DEFAULT current_timestamp,
 	PRIMARY KEY (dni_usuario, id_turno, entrada)
 );
 
@@ -173,8 +174,8 @@ CREATE TABLE public.becario_realiza_turno (
 CREATE TABLE public.prestamo_libro (
 	dni_usuario varchar(9) NOT NULL,
 	isbn varchar(13) NOT NULL,
-	fecha_prestamo timestamp without time zone NOT NULL,
-	validez date NOT NULL,
+	fecha_prestamo TIMESTAMP DEFAULT current_timestamp NOT NULL,
+	validez DATE DEFAULT current_date+10 NOT NULL,
 	fecha_devolucion timestamp without time zone,
 	PRIMARY KEY (dni_usuario, isbn, fecha_prestamo)
 );

@@ -226,7 +226,7 @@
 									"font": "Arial;13;1",
 									"left": 384,
 									"top": 85,
-									"width": 226.9423828125,
+									"width": 278.2314453125,
 									"height": 13,
 									"text": "Becario"
 								},
@@ -252,7 +252,7 @@
 											"font": "Arial;13;0",
 											"left": 389,
 											"top": 108,
-											"width": 216.9423828125,
+											"width": 268.2314453125,
 											"height": 13
 										},
 										{
@@ -267,7 +267,7 @@
 											"font": "Arial;13;0",
 											"left": 389,
 											"top": 123,
-											"width": 216.9423828125,
+											"width": 268.2314453125,
 											"height": 13
 										},
 										{
@@ -282,21 +282,21 @@
 											"font": "Arial;13;0",
 											"left": 389,
 											"top": 138,
-											"width": 216.9423828125,
+											"width": 268.2314453125,
 											"height": 13
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 384,
 									"top": 103,
-									"width": 226.9423828125,
+									"width": 278.2314453125,
 									"height": 53
 								}
 							],
 							"font": "Arial;13;0",
 							"left": 384,
 							"top": 80,
-							"width": 226.9423828125,
+							"width": 278.2314453125,
 							"height": 76,
 							"nameLabel": {
 								"$ref": "AAAAAAFon4uFx72V+7Y="
@@ -804,9 +804,9 @@
 										"$ref": "AAAAAAFon8Qu078TIFA="
 									},
 									"font": "Arial;13;1",
-									"left": 632,
+									"left": 832,
 									"top": 85,
-									"width": 204.5732421875,
+									"width": 260.17236328125,
 									"height": 13,
 									"text": "Material"
 								},
@@ -830,9 +830,9 @@
 												"$ref": "AAAAAAFon8RpZ78fupo="
 											},
 											"font": "Arial;13;0",
-											"left": 637,
+											"left": 837,
 											"top": 108,
-											"width": 194.5732421875,
+											"width": 250.17236328125,
 											"height": 13
 										},
 										{
@@ -845,9 +845,9 @@
 												"$ref": "AAAAAAFon8Rx5r8lots="
 											},
 											"font": "Arial;13;0",
-											"left": 637,
+											"left": 837,
 											"top": 123,
-											"width": 194.5732421875,
+											"width": 250.17236328125,
 											"height": 13
 										},
 										{
@@ -860,24 +860,39 @@
 												"$ref": "AAAAAAFon8R7zL8rU1A="
 											},
 											"font": "Arial;13;0",
-											"left": 637,
+											"left": 837,
 											"top": 138,
-											"width": 194.5732421875,
+											"width": 250.17236328125,
+											"height": 13
+										},
+										{
+											"_type": "ERDColumnView",
+											"_id": "AAAAAAFor7MLm1jmZpU=",
+											"_parent": {
+												"$ref": "AAAAAAFon8Qu1L8VmLk="
+											},
+											"model": {
+												"$ref": "AAAAAAFor7MLdVjjQRc="
+											},
+											"font": "Arial;13;0",
+											"left": 837,
+											"top": 153,
+											"width": 250.17236328125,
 											"height": 13
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 632,
+									"left": 832,
 									"top": 103,
-									"width": 204.5732421875,
-									"height": 53
+									"width": 260.17236328125,
+									"height": 68
 								}
 							],
 							"font": "Arial;13;0",
-							"left": 632,
+							"left": 832,
 							"top": 80,
-							"width": 204.5732421875,
-							"height": 76,
+							"width": 260.17236328125,
+							"height": 106,
 							"nameLabel": {
 								"$ref": "AAAAAAFon8Qu1L8UCYc="
 							},
@@ -2019,7 +2034,7 @@
 									"font": "Arial;13;1",
 									"left": 344,
 									"top": 877,
-									"width": 234.17236328125,
+									"width": 405.8447265625,
 									"height": 13,
 									"text": "Becario_Realiza_Turno"
 								},
@@ -2045,7 +2060,7 @@
 											"font": "Arial;13;0",
 											"left": 349,
 											"top": 900,
-											"width": 224.17236328125,
+											"width": 395.8447265625,
 											"height": 13
 										},
 										{
@@ -2060,7 +2075,7 @@
 											"font": "Arial;13;0",
 											"left": 349,
 											"top": 915,
-											"width": 224.17236328125,
+											"width": 395.8447265625,
 											"height": 13
 										},
 										{
@@ -2075,7 +2090,7 @@
 											"font": "Arial;13;0",
 											"left": 349,
 											"top": 930,
-											"width": 224.17236328125,
+											"width": 395.8447265625,
 											"height": 13
 										},
 										{
@@ -2090,21 +2105,21 @@
 											"font": "Arial;13;0",
 											"left": 349,
 											"top": 945,
-											"width": 224.17236328125,
+											"width": 395.8447265625,
 											"height": 13
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 344,
 									"top": 895,
-									"width": 234.17236328125,
+									"width": 405.8447265625,
 									"height": 68
 								}
 							],
 							"font": "Arial;13;0",
 							"left": 344,
 							"top": 872,
-							"width": 234.17236328125,
+							"width": 405.8447265625,
 							"height": 121,
 							"nameLabel": {
 								"$ref": "AAAAAAFon/he9cHSbB8="
@@ -2132,7 +2147,7 @@
 									"font": "Arial;13;1",
 									"left": 40,
 									"top": 997,
-									"width": 271.0205078125,
+									"width": 442.69287109375,
 									"height": 13,
 									"text": "Prestamo_Libro"
 								},
@@ -2158,7 +2173,7 @@
 											"font": "Arial;13;0",
 											"left": 45,
 											"top": 1020,
-											"width": 261.0205078125,
+											"width": 432.69287109375,
 											"height": 13
 										},
 										{
@@ -2173,7 +2188,7 @@
 											"font": "Arial;13;0",
 											"left": 45,
 											"top": 1035,
-											"width": 261.0205078125,
+											"width": 432.69287109375,
 											"height": 13
 										},
 										{
@@ -2188,7 +2203,7 @@
 											"font": "Arial;13;0",
 											"left": 45,
 											"top": 1050,
-											"width": 261.0205078125,
+											"width": 432.69287109375,
 											"height": 13
 										},
 										{
@@ -2203,7 +2218,7 @@
 											"font": "Arial;13;0",
 											"left": 45,
 											"top": 1065,
-											"width": 261.0205078125,
+											"width": 432.69287109375,
 											"height": 13
 										},
 										{
@@ -2218,21 +2233,21 @@
 											"font": "Arial;13;0",
 											"left": 45,
 											"top": 1080,
-											"width": 261.0205078125,
+											"width": 432.69287109375,
 											"height": 13
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 40,
 									"top": 1015,
-									"width": 271.0205078125,
+									"width": 442.69287109375,
 									"height": 83
 								}
 							],
 							"font": "Arial;13;0",
 							"left": 40,
 							"top": 992,
-							"width": 271.0205078125,
+							"width": 442.69287109375,
 							"height": 106,
 							"nameLabel": {
 								"$ref": "AAAAAAFon/ql+MH8wG0="
@@ -2258,8 +2273,8 @@
 										"$ref": "AAAAAAFon/4cFsI0oXI="
 									},
 									"font": "Arial;13;1",
-									"left": 344,
-									"top": 1021,
+									"left": 552,
+									"top": 1045,
 									"width": 227.68505859375,
 									"height": 13,
 									"text": "Reserva_Lavadora"
@@ -2284,8 +2299,8 @@
 												"$ref": "AAAAAAFon/5BSsI/Fn0="
 											},
 											"font": "Arial;13;0",
-											"left": 349,
-											"top": 1044,
+											"left": 557,
+											"top": 1068,
 											"width": 217.68505859375,
 											"height": 13
 										},
@@ -2299,8 +2314,8 @@
 												"$ref": "AAAAAAFon/5KRMJFpsU="
 											},
 											"font": "Arial;13;0",
-											"left": 349,
-											"top": 1059,
+											"left": 557,
+											"top": 1083,
 											"width": 217.68505859375,
 											"height": 13
 										},
@@ -2314,8 +2329,8 @@
 												"$ref": "AAAAAAFopmhlwATh01w="
 											},
 											"font": "Arial;13;0",
-											"left": 349,
-											"top": 1074,
+											"left": 557,
+											"top": 1098,
 											"width": 217.68505859375,
 											"height": 13
 										},
@@ -2329,8 +2344,8 @@
 												"$ref": "AAAAAAFon/5LNsJLOxQ="
 											},
 											"font": "Arial;13;0",
-											"left": 349,
-											"top": 1089,
+											"left": 557,
+											"top": 1113,
 											"width": 217.68505859375,
 											"height": 13
 										},
@@ -2344,22 +2359,22 @@
 												"$ref": "AAAAAAFon/5R/MJRQEo="
 											},
 											"font": "Arial;13;0",
-											"left": 349,
-											"top": 1104,
+											"left": 557,
+											"top": 1128,
 											"width": 217.68505859375,
 											"height": 13
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 344,
-									"top": 1039,
+									"left": 552,
+									"top": 1063,
 									"width": 227.68505859375,
 									"height": 83
 								}
 							],
 							"font": "Arial;13;0",
-							"left": 344,
-							"top": 1016,
+							"left": 552,
+							"top": 1040,
 							"width": 227.68505859375,
 							"height": 106,
 							"nameLabel": {
@@ -2627,7 +2642,7 @@
 								"$ref": "AAAAAAFon4uFx72StOg="
 							},
 							"name": "N_Avisos",
-							"type": "INTEGER"
+							"type": "INTEGER DEFAULT 0"
 						}
 					]
 				},
@@ -2863,7 +2878,7 @@
 								"$ref": "AAAAAAFon8Qu078RYxM="
 							},
 							"name": "ID_Material",
-							"type": "INTEGER",
+							"type": "serial",
 							"primaryKey": true
 						},
 						{
@@ -2884,6 +2899,16 @@
 							},
 							"name": "Stock",
 							"type": "INTEGER"
+						},
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAFor7MLdVjjQRc=",
+							"_parent": {
+								"$ref": "AAAAAAFon8Qu078RYxM="
+							},
+							"name": "Prestadas",
+							"type": "INTEGER DEFAULT 0",
+							"length": 0
 						}
 					]
 				},
@@ -3420,7 +3445,7 @@
 								"$ref": "AAAAAAFon+Y7+MGA/nc="
 							},
 							"name": "ID_Turno",
-							"type": "serial",
+							"type": "INTEGER",
 							"primaryKey": true,
 							"foreignKey": true,
 							"referenceTo": {
@@ -3459,7 +3484,7 @@
 								"$ref": "AAAAAAFon/d/j8HDP4Q="
 							},
 							"name": "ID_Turno",
-							"type": "serial",
+							"type": "INTEGER",
 							"primaryKey": true,
 							"foreignKey": true,
 							"referenceTo": {
@@ -3473,7 +3498,7 @@
 								"$ref": "AAAAAAFon/d/j8HDP4Q="
 							},
 							"name": "Entrada",
-							"type": "TIMESTAMP",
+							"type": "TIMESTAMP DEFAULT current_timestamp",
 							"primaryKey": true
 						},
 						{
@@ -3483,7 +3508,7 @@
 								"$ref": "AAAAAAFon/d/j8HDP4Q="
 							},
 							"name": "Salida",
-							"type": "TIMESTAMP",
+							"type": "TIMESTAMP DEFAULT current_timestamp",
 							"nullable": true
 						}
 					]
@@ -3533,7 +3558,7 @@
 								"$ref": "AAAAAAFon/ql+MH5lKc="
 							},
 							"name": "Fecha_Prestamo",
-							"type": "TIMESTAMP",
+							"type": "TIMESTAMP DEFAULT current_timestamp",
 							"primaryKey": true
 						},
 						{
@@ -3543,7 +3568,7 @@
 								"$ref": "AAAAAAFon/ql+MH5lKc="
 							},
 							"name": "Validez",
-							"type": "DATE"
+							"type": "DATE DEFAULT current_date+10"
 						},
 						{
 							"_type": "ERDColumn",
