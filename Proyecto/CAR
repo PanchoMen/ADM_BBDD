@@ -1,0 +1,1 @@
+INSERT INTO usuario VALUES('43832003Y', 'alu0100846768', '12345', 'Francisco Javier', 'Mendoza Álvarez', NULL, NULL, '2015-2016', 15);

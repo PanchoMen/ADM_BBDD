@@ -465,8 +465,8 @@
 										"$ref": "AAAAAAFon6Tm4L4DS+g="
 									},
 									"font": "Arial;13;1",
-									"left": 600,
-									"top": 885,
+									"left": 656,
+									"top": 757,
 									"width": 191.30029296875,
 									"height": 13,
 									"text": "TurnoB"
@@ -491,8 +491,8 @@
 												"$ref": "AAAAAAFor579EQUGOIk="
 											},
 											"font": "Arial;13;0",
-											"left": 605,
-											"top": 908,
+											"left": 661,
+											"top": 780,
 											"width": 181.30029296875,
 											"height": 13
 										},
@@ -506,8 +506,8 @@
 												"$ref": "AAAAAAFon6Uph74O9L0="
 											},
 											"font": "Arial;13;0",
-											"left": 605,
-											"top": 923,
+											"left": 661,
+											"top": 795,
 											"width": 181.30029296875,
 											"height": 13
 										},
@@ -521,8 +521,8 @@
 												"$ref": "AAAAAAFon6U0sL4UChY="
 											},
 											"font": "Arial;13;0",
-											"left": 605,
-											"top": 938,
+											"left": 661,
+											"top": 810,
 											"width": 181.30029296875,
 											"height": 13
 										},
@@ -536,8 +536,8 @@
 												"$ref": "AAAAAAFon6U9OL4azpg="
 											},
 											"font": "Arial;13;0",
-											"left": 605,
-											"top": 953,
+											"left": 661,
+											"top": 825,
 											"width": 181.30029296875,
 											"height": 13
 										},
@@ -551,22 +551,22 @@
 												"$ref": "AAAAAAFon6VG1b4g60A="
 											},
 											"font": "Arial;13;0",
-											"left": 605,
-											"top": 968,
+											"left": 661,
+											"top": 840,
 											"width": 181.30029296875,
 											"height": 13
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 600,
-									"top": 903,
+									"left": 656,
+									"top": 775,
 									"width": 191.30029296875,
 									"height": 83
 								}
 							],
 							"font": "Arial;13;0",
-							"left": 600,
-							"top": 880,
+							"left": 656,
+							"top": 752,
 							"width": 191.30029296875,
 							"height": 106,
 							"nameLabel": {
@@ -2120,7 +2120,7 @@
 							"left": 344,
 							"top": 872,
 							"width": 405.8447265625,
-							"height": 121,
+							"height": 91,
 							"nameLabel": {
 								"$ref": "AAAAAAFon/he9cHSbB8="
 							},
@@ -3508,7 +3508,7 @@
 								"$ref": "AAAAAAFon/d/j8HDP4Q="
 							},
 							"name": "Salida",
-							"type": "TIMESTAMP DEFAULT current_timestamp",
+							"type": "TIMESTAMP",
 							"nullable": true
 						}
 					]

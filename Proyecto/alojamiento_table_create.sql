@@ -166,7 +166,7 @@ CREATE TABLE public.becario_realiza_turno (
 	dni_usuario varchar(9) NOT NULL,
 	id_turno integer NOT NULL,
 	entrada TIMESTAMP DEFAULT current_timestamp NOT NULL,
-	salida TIMESTAMP DEFAULT current_timestamp,
+	salida timestamp without time zone,
 	PRIMARY KEY (dni_usuario, id_turno, entrada)
 );
 
