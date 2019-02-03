@@ -219,8 +219,12 @@ ALTER TABLE public.becario_realiza_turno ADD CONSTRAINT FK_becario_realiza_turno
 ALTER TABLE public.prestamo_libro ADD CONSTRAINT FK_prestamo_libro__dni_usuario FOREIGN KEY (dni_usuario) REFERENCES public.usuario(dni_usuario);
 ALTER TABLE public.prestamo_libro ADD CONSTRAINT FK_prestamo_libro__isbn FOREIGN KEY (isbn) REFERENCES public.libro(isbn);
 ALTER TABLE public.reserva_lavadora ADD CONSTRAINT FK_reserva_lavadora__dni_usuario FOREIGN KEY (dni_usuario) REFERENCES public.usuario(dni_usuario);
-ALTER TABLE public.reserva_lavadora ADD CONSTRAINT FK_reserva_lavadora__id_lavadora FOREIGN KEY (id_lavadora) REFERENCES public.lavadora(id_lavadora);
-ALTER TABLE public.reserva_lavadora ADD CONSTRAINT FK_reserva_lavadora__id_secadora FOREIGN KEY (id_secadora) REFERENCES public.secadora(id_secadora);
+ALTER TABLE public.reserva_lavadora ADD CONSTRAINT FK_reserva_lavadora__id_lavadora FOREIGN KEY (id_lavadora) REFERENCES public.turnol(id_lavadora);
+ALTER TABLE public.reserva_lavadora ADD CONSTRAINT FK_reserva_lavadora__id_secadora FOREIGN KEY (id_secadora) REFERENCES public.turnol(id_secadora);
+ALTER TABLE public.reserva_lavadora ADD CONSTRAINT FK_reserva_lavadora__fecha FOREIGN KEY (fecha) REFERENCES public.turnol(fecha);
+ALTER TABLE public.reserva_lavadora ADD CONSTRAINT FK_reserva_lavadora__hora FOREIGN KEY (hora) REFERENCES public.turnol(inicio);
 ALTER TABLE public.usa_lavadora ADD CONSTRAINT FK_usa_lavadora__dni_usuario FOREIGN KEY (dni_usuario) REFERENCES public.usuario(dni_usuario);
-ALTER TABLE public.usa_lavadora ADD CONSTRAINT FK_usa_lavadora__id_lavadora FOREIGN KEY (id_lavadora) REFERENCES public.lavadora(id_lavadora);
-ALTER TABLE public.usa_lavadora ADD CONSTRAINT FK_usa_lavadora__id_secadora FOREIGN KEY (id_secadora) REFERENCES public.secadora(id_secadora);
+ALTER TABLE public.usa_lavadora ADD CONSTRAINT FK_usa_lavadora__id_lavadora FOREIGN KEY (id_lavadora) REFERENCES public.turnol(id_lavadora);
+ALTER TABLE public.usa_lavadora ADD CONSTRAINT FK_usa_lavadora__id_secadora FOREIGN KEY (id_secadora) REFERENCES public.turnol(id_secadora);
+ALTER TABLE public.usa_lavadora ADD CONSTRAINT FK_usa_lavadora__fecha FOREIGN KEY (fecha) REFERENCES public.turnol(fecha);
+ALTER TABLE public.usa_lavadora ADD CONSTRAINT FK_usa_lavadora__hora FOREIGN KEY (hora) REFERENCES public.turnol(inicio);

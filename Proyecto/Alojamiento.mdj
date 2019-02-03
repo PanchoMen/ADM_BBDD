@@ -1482,8 +1482,8 @@
 										"$ref": "AAAAAAFon9iXzcBmc5g="
 									},
 									"font": "Arial;13;1",
-									"left": 328,
-									"top": 597,
+									"left": 552,
+									"top": 1181,
 									"width": 205.54443359375,
 									"height": 13,
 									"text": "TurnoL"
@@ -1508,8 +1508,8 @@
 												"$ref": "AAAAAAFon9i5yMBxGtI="
 											},
 											"font": "Arial;13;0",
-											"left": 333,
-											"top": 620,
+											"left": 557,
+											"top": 1204,
 											"width": 195.54443359375,
 											"height": 13
 										},
@@ -1523,8 +1523,8 @@
 												"$ref": "AAAAAAFon9jCSsB3pW8="
 											},
 											"font": "Arial;13;0",
-											"left": 333,
-											"top": 635,
+											"left": 557,
+											"top": 1219,
 											"width": 195.54443359375,
 											"height": 13
 										},
@@ -1538,8 +1538,8 @@
 												"$ref": "AAAAAAFon9jK0cB9khg="
 											},
 											"font": "Arial;13;0",
-											"left": 333,
-											"top": 650,
+											"left": 557,
+											"top": 1234,
 											"width": 195.54443359375,
 											"height": 13
 										},
@@ -1553,8 +1553,8 @@
 												"$ref": "AAAAAAFon9jSssCDNeY="
 											},
 											"font": "Arial;13;0",
-											"left": 333,
-											"top": 665,
+											"left": 557,
+											"top": 1249,
 											"width": 195.54443359375,
 											"height": 13
 										},
@@ -1568,8 +1568,8 @@
 												"$ref": "AAAAAAFon9jbM8CJiIs="
 											},
 											"font": "Arial;13;0",
-											"left": 333,
-											"top": 680,
+											"left": 557,
+											"top": 1264,
 											"width": 195.54443359375,
 											"height": 13
 										},
@@ -1583,22 +1583,22 @@
 												"$ref": "AAAAAAFon9jj5MCPFN4="
 											},
 											"font": "Arial;13;0",
-											"left": 333,
-											"top": 695,
+											"left": 557,
+											"top": 1279,
 											"width": 195.54443359375,
 											"height": 13
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 328,
-									"top": 615,
+									"left": 552,
+									"top": 1199,
 									"width": 205.54443359375,
 									"height": 98
 								}
 							],
 							"font": "Arial;13;0",
-							"left": 328,
-							"top": 592,
+							"left": 552,
+							"top": 1176,
 							"width": 205.54443359375,
 							"height": 121,
 							"nameLabel": {
@@ -2386,22 +2386,22 @@
 						},
 						{
 							"_type": "ERDEntityView",
-							"_id": "AAAAAAFooAOSq8J7Jss=",
+							"_id": "AAAAAAFotQReYFvB+0w=",
 							"_parent": {
 								"$ref": "AAAAAAFonoz2bb0wA9U="
 							},
 							"model": {
-								"$ref": "AAAAAAFooANDS8JuknE="
+								"$ref": "AAAAAAFotQQIh1uhRvI="
 							},
 							"subViews": [
 								{
 									"_type": "LabelView",
-									"_id": "AAAAAAFooAOSq8J8MWU=",
+									"_id": "AAAAAAFotQReYVvCWP8=",
 									"_parent": {
-										"$ref": "AAAAAAFooAOSq8J7Jss="
+										"$ref": "AAAAAAFotQReYFvB+0w="
 									},
 									"font": "Arial;13;1",
-									"left": 250,
+									"left": 264,
 									"top": 1173,
 									"width": 227.68505859375,
 									"height": 13,
@@ -2409,107 +2409,107 @@
 								},
 								{
 									"_type": "ERDColumnCompartmentView",
-									"_id": "AAAAAAFooAOSq8J9mJ0=",
+									"_id": "AAAAAAFotQReYVvDG9E=",
 									"_parent": {
-										"$ref": "AAAAAAFooAOSq8J7Jss="
+										"$ref": "AAAAAAFotQReYFvB+0w="
 									},
 									"model": {
-										"$ref": "AAAAAAFooANDS8JuknE="
+										"$ref": "AAAAAAFotQQIh1uhRvI="
 									},
 									"subViews": [
 										{
 											"_type": "ERDColumnView",
-											"_id": "AAAAAAFooAOS1cKEKKA=",
+											"_id": "AAAAAAFotQReilvK8ko=",
 											"_parent": {
-												"$ref": "AAAAAAFooAOSq8J9mJ0="
+												"$ref": "AAAAAAFotQReYVvDG9E="
 											},
 											"model": {
-												"$ref": "AAAAAAFooANDS8Jv9CQ="
+												"$ref": "AAAAAAFotQQIh1uib0k="
 											},
 											"font": "Arial;13;0",
-											"left": 255,
+											"left": 269,
 											"top": 1196,
 											"width": 217.68505859375,
 											"height": 13
 										},
 										{
 											"_type": "ERDColumnView",
-											"_id": "AAAAAAFooAOS1cKHL5Q=",
+											"_id": "AAAAAAFotQReilvNMm8=",
 											"_parent": {
-												"$ref": "AAAAAAFooAOSq8J9mJ0="
+												"$ref": "AAAAAAFotQReYVvDG9E="
 											},
 											"model": {
-												"$ref": "AAAAAAFooANDS8JwVEY="
+												"$ref": "AAAAAAFotQQIh1ujh/4="
 											},
 											"font": "Arial;13;0",
-											"left": 255,
+											"left": 269,
 											"top": 1211,
 											"width": 217.68505859375,
 											"height": 13
 										},
 										{
 											"_type": "ERDColumnView",
-											"_id": "AAAAAAFotFz/B1kXZYw=",
+											"_id": "AAAAAAFotQReilvQFVA=",
 											"_parent": {
-												"$ref": "AAAAAAFooAOSq8J9mJ0="
+												"$ref": "AAAAAAFotQReYVvDG9E="
 											},
 											"model": {
-												"$ref": "AAAAAAFotFz+01kUHfI="
+												"$ref": "AAAAAAFotQQIh1ukys0="
 											},
 											"font": "Arial;13;0",
-											"left": 255,
+											"left": 269,
 											"top": 1226,
 											"width": 217.68505859375,
 											"height": 13
 										},
 										{
 											"_type": "ERDColumnView",
-											"_id": "AAAAAAFooAOS1sKKJjo=",
+											"_id": "AAAAAAFotQReilvT3Fo=",
 											"_parent": {
-												"$ref": "AAAAAAFooAOSq8J9mJ0="
+												"$ref": "AAAAAAFotQReYVvDG9E="
 											},
 											"model": {
-												"$ref": "AAAAAAFooANDS8JxXho="
+												"$ref": "AAAAAAFotQQIh1ulIiI="
 											},
 											"font": "Arial;13;0",
-											"left": 255,
+											"left": 269,
 											"top": 1241,
 											"width": 217.68505859375,
 											"height": 13
 										},
 										{
 											"_type": "ERDColumnView",
-											"_id": "AAAAAAFooAOS1sKNMdE=",
+											"_id": "AAAAAAFotQRei1vW+IA=",
 											"_parent": {
-												"$ref": "AAAAAAFooAOSq8J9mJ0="
+												"$ref": "AAAAAAFotQReYVvDG9E="
 											},
 											"model": {
-												"$ref": "AAAAAAFooANDS8JyERM="
+												"$ref": "AAAAAAFotQQIh1umF30="
 											},
 											"font": "Arial;13;0",
-											"left": 255,
+											"left": 269,
 											"top": 1256,
 											"width": 217.68505859375,
 											"height": 13
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 250,
+									"left": 264,
 									"top": 1191,
 									"width": 227.68505859375,
 									"height": 83
 								}
 							],
 							"font": "Arial;13;0",
-							"left": 250,
+							"left": 264,
 							"top": 1168,
 							"width": 227.68505859375,
 							"height": 106,
 							"nameLabel": {
-								"$ref": "AAAAAAFooAOSq8J8MWU="
+								"$ref": "AAAAAAFotQReYVvCWP8="
 							},
 							"columnCompartment": {
-								"$ref": "AAAAAAFooAOSq8J9mJ0="
+								"$ref": "AAAAAAFotQReYVvDG9E="
 							}
 						}
 					]
@@ -3629,7 +3629,7 @@
 							"primaryKey": true,
 							"foreignKey": true,
 							"referenceTo": {
-								"$ref": "AAAAAAFon7/1HL72YOA="
+								"$ref": "AAAAAAFon9i5yMBxGtI="
 							}
 						},
 						{
@@ -3643,7 +3643,7 @@
 							"primaryKey": true,
 							"foreignKey": true,
 							"referenceTo": {
-								"$ref": "AAAAAAFon8cpaL9Z0XM="
+								"$ref": "AAAAAAFon9jCSsB3pW8="
 							}
 						},
 						{
@@ -3654,7 +3654,11 @@
 							},
 							"name": "Fecha",
 							"type": "DATE",
-							"primaryKey": true
+							"primaryKey": true,
+							"foreignKey": true,
+							"referenceTo": {
+								"$ref": "AAAAAAFon9jK0cB9khg="
+							}
 						},
 						{
 							"_type": "ERDColumn",
@@ -3665,13 +3669,17 @@
 							"name": "Hora",
 							"type": "TIME",
 							"length": 0,
-							"primaryKey": true
+							"primaryKey": true,
+							"foreignKey": true,
+							"referenceTo": {
+								"$ref": "AAAAAAFon9jSssCDNeY="
+							}
 						}
 					]
 				},
 				{
 					"_type": "ERDEntity",
-					"_id": "AAAAAAFooANDS8JuknE=",
+					"_id": "AAAAAAFotQQIh1uhRvI=",
 					"_parent": {
 						"$ref": "AAAAAAFonoz2bb0vK2k="
 					},
@@ -3679,9 +3687,9 @@
 					"columns": [
 						{
 							"_type": "ERDColumn",
-							"_id": "AAAAAAFooANDS8Jv9CQ=",
+							"_id": "AAAAAAFotQQIh1uib0k=",
 							"_parent": {
-								"$ref": "AAAAAAFooANDS8JuknE="
+								"$ref": "AAAAAAFotQQIh1uhRvI="
 							},
 							"name": "DNI_Usuario",
 							"type": "VARCHAR",
@@ -3694,53 +3702,60 @@
 						},
 						{
 							"_type": "ERDColumn",
-							"_id": "AAAAAAFooANDS8JwVEY=",
+							"_id": "AAAAAAFotQQIh1ujh/4=",
 							"_parent": {
-								"$ref": "AAAAAAFooANDS8JuknE="
+								"$ref": "AAAAAAFotQQIh1uhRvI="
 							},
 							"name": "ID_Lavadora",
 							"type": "INTEGER",
 							"primaryKey": true,
 							"foreignKey": true,
 							"referenceTo": {
-								"$ref": "AAAAAAFon7/1HL72YOA="
+								"$ref": "AAAAAAFon9i5yMBxGtI="
 							}
 						},
 						{
 							"_type": "ERDColumn",
-							"_id": "AAAAAAFotFz+01kUHfI=",
+							"_id": "AAAAAAFotQQIh1ukys0=",
 							"_parent": {
-								"$ref": "AAAAAAFooANDS8JuknE="
+								"$ref": "AAAAAAFotQQIh1uhRvI="
 							},
 							"name": "ID_Secadora",
 							"type": "INTEGER",
-							"length": 0,
 							"primaryKey": true,
 							"foreignKey": true,
 							"referenceTo": {
-								"$ref": "AAAAAAFon8cpaL9Z0XM="
+								"$ref": "AAAAAAFon9jCSsB3pW8="
 							}
 						},
 						{
 							"_type": "ERDColumn",
-							"_id": "AAAAAAFooANDS8JxXho=",
+							"_id": "AAAAAAFotQQIh1ulIiI=",
 							"_parent": {
-								"$ref": "AAAAAAFooANDS8JuknE="
+								"$ref": "AAAAAAFotQQIh1uhRvI="
 							},
 							"name": "Fecha",
 							"type": "DATE",
-							"primaryKey": true
+							"primaryKey": true,
+							"foreignKey": true,
+							"referenceTo": {
+								"$ref": "AAAAAAFon9jK0cB9khg="
+							}
 						},
 						{
 							"_type": "ERDColumn",
-							"_id": "AAAAAAFooANDS8JyERM=",
+							"_id": "AAAAAAFotQQIh1umF30=",
 							"_parent": {
-								"$ref": "AAAAAAFooANDS8JuknE="
+								"$ref": "AAAAAAFotQQIh1uhRvI="
 							},
 							"name": "Hora",
 							"type": "TIME",
 							"length": 0,
-							"primaryKey": true
+							"primaryKey": true,
+							"foreignKey": true,
+							"referenceTo": {
+								"$ref": "AAAAAAFon9jSssCDNeY="
+							}
 						}
 					]
 				}
