@@ -1,7 +1,7 @@
 CREATE TABLE public.usuario (
 	dni_usuario varchar(9) NOT NULL,
 	niu varchar(13) NOT NULL,
-	password varchar(23) NOT NULL,
+	password varchar(32) NOT NULL,
 	nombre varchar(20) NOT NULL,
 	apellidos varchar(30) NOT NULL,
 	email varchar(50),
@@ -39,7 +39,7 @@ CREATE TABLE public.habitacion (
 
 CREATE TABLE public.turnob (
 	id_turno serial NOT NULL,
-	servicio varchar(10) NOT NULL,
+	servicio varchar(15) NOT NULL,
 	dia varchar(10) NOT NULL,
 	hora_e time without time zone NOT NULL,
 	hora_s time without time zone NOT NULL,
@@ -84,10 +84,10 @@ CREATE TABLE public.secadora (
 CREATE TABLE public.visita (
 	dni_usuario varchar(9) NOT NULL,
 	dni_visita varchar(9) NOT NULL,
-	fecha date NOT NULL,
+	fecha DATE DEFAULT current_date NOT NULL,
 	nombre varchar(20) NOT NULL,
 	apellidos varchar(30) NOT NULL,
-	entrada time without time zone NOT NULL,
+	entrada TIME DEFAULT current_time NOT NULL,
 	salida time without time zone,
 	PRIMARY KEY (dni_usuario, dni_visita, fecha)
 );
@@ -95,8 +95,8 @@ CREATE TABLE public.visita (
 
 CREATE TABLE public.libro (
 	isbn varchar(13) NOT NULL,
-	titulo varchar(50) NOT NULL,
-	categoria varchar(50) NOT NULL,
+	titulo text NOT NULL,
+	categoria text NOT NULL,
 	PRIMARY KEY (isbn)
 );
 
@@ -132,7 +132,7 @@ CREATE TABLE public.turnol (
 CREATE TABLE public.prestamo_material (
 	dni_usuario varchar(9) NOT NULL,
 	id_material integer NOT NULL,
-	fecha_prestamo date NOT NULL,
+	fecha_prestamo DATE DEFAULT current_date NOT NULL,
 	fecha_devolucion date,
 	PRIMARY KEY (dni_usuario, id_material, fecha_prestamo)
 );
@@ -141,7 +141,7 @@ CREATE TABLE public.prestamo_material (
 CREATE TABLE public.uso_ordenador (
 	dni_usuario varchar(9) NOT NULL,
 	id_ordenador integer NOT NULL,
-	inicio timestamp without time zone NOT NULL,
+	inicio TIMESTAMP DEFAULT current_timestamp NOT NULL,
 	fin timestamp without time zone,
 	PRIMARY KEY (dni_usuario, id_ordenador, inicio)
 );
@@ -150,7 +150,7 @@ CREATE TABLE public.uso_ordenador (
 CREATE TABLE public.realiza_pago (
 	dni_usuario varchar(9) NOT NULL,
 	referencia varchar(20) NOT NULL,
-	fecha_pago timestamp without time zone NOT NULL,
+	fecha_pago TIMESTAMP DEFAULT current_timestamp NOT NULL,
 	PRIMARY KEY (dni_usuario, referencia)
 );
 
@@ -194,9 +194,10 @@ CREATE TABLE public.reserva_lavadora (
 CREATE TABLE public.usa_lavadora (
 	dni_usuario varchar(9) NOT NULL,
 	id_lavadora integer NOT NULL,
+	id_secadora integer NOT NULL,
 	fecha date NOT NULL,
 	hora time without time zone NOT NULL,
-	PRIMARY KEY (dni_usuario, id_lavadora, fecha, hora)
+	PRIMARY KEY (dni_usuario, id_lavadora, id_secadora, fecha, hora)
 );
 
 
@@ -222,3 +223,4 @@ ALTER TABLE public.reserva_lavadora ADD CONSTRAINT FK_reserva_lavadora__id_lavad
 ALTER TABLE public.reserva_lavadora ADD CONSTRAINT FK_reserva_lavadora__id_secadora FOREIGN KEY (id_secadora) REFERENCES public.secadora(id_secadora);
 ALTER TABLE public.usa_lavadora ADD CONSTRAINT FK_usa_lavadora__dni_usuario FOREIGN KEY (dni_usuario) REFERENCES public.usuario(dni_usuario);
 ALTER TABLE public.usa_lavadora ADD CONSTRAINT FK_usa_lavadora__id_lavadora FOREIGN KEY (id_lavadora) REFERENCES public.lavadora(id_lavadora);
+ALTER TABLE public.usa_lavadora ADD CONSTRAINT FK_usa_lavadora__id_secadora FOREIGN KEY (id_secadora) REFERENCES public.secadora(id_secadora);
