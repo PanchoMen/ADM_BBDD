@@ -33,7 +33,7 @@ CREATE TABLE Habitacion
 Numero INTEGER,
 Planta INTEGER,
 Orientacion text,
-)INHERITS (usuario);
+);
 
 
 CREATE TABLE Lavadoras
@@ -62,7 +62,7 @@ DNI_USUARIO text,
 N_Impresiones INTEGER,
 Realizadas INTEGER,
 Restantes INTEGER
-);INHERITS (Ordenadores)
+);
 
 CREATE TABLE Ordenadores
 (
