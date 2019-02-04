@@ -259,6 +259,8 @@ ALTER TABLE public.usa_lavadora ADD CONSTRAINT FK_usa_lavadora__hora FOREIGN KEY
 
 ```
 
+
+
 ![BDROO](https://github.com/PanchoMen/ADM_BBDD/blob/master/Proyecto/Imagenes/Orientado%20a%20Objetos.png "BDROO")
 
 #### Código generado
@@ -711,14 +713,14 @@ FOR EACH ROW EXECUTE PROCEDURE actualiza_Stock_Materiales_Devueltos();
 ![Creacion Triggers](https://github.com/PanchoMen/ADM_BBDD/blob/master/Proyecto/Imagenes/Captura%20de%20pantalla%202019-02-03%20a%20las%2019.34.58.png "Creacion Triggers")
 ![Demostración Triggers](https://github.com/PanchoMen/ADM_BBDD/blob/master/Proyecto/Imagenes/Captura%20de%20pantalla%202019-02-04%20a%20las%200.18.39.png "Demostración Triggers")
 
-### Consultas
-
-
-
 ### Documentos
 
 [Modelo Conceptual (ER/E)](https://docs.google.com/document/d/1YyA7ncFUrWx-Qj04xc_uT3zIPUx9xvYZ1xDwMXrUMsI/edit)
+
 [Modelo Lógico Relacional](https://docs.google.com/document/d/12NWO4yWV7Tdxjb-c83uA3DQr4VqoBzWgWpdW-EpUZCg/edit)
+
 [Modelo Lógico Objeto-Relacional (UML)](https://docs.google.com/document/d/1Q4XFyFXeUylCZWycXaC_e-gI20L48b4pv-OQDFO4uUI/edit)
+
 [Generación de Código (Scripts)](https://docs.google.com/document/d/1h85ybZ_a63iFDp155WGMczX3KedW5epCV1iWBbZeV5Y/edit)
+
 [Carga de datos](https://docs.google.com/document/d/1PIFQGy_2bH2C8DyfVkYP3LiDT7AEl762h5ET7Wayx8I/edit)
